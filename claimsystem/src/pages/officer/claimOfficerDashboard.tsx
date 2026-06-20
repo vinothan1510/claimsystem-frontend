@@ -9,7 +9,7 @@ import {
   downloadDocument
 } from "../../api/claimApi";
 
-const claimOfficerDashboard = () => {
+const ClaimOfficerDashboard = () => {
   const [claims, setClaims] = useState<any[]>([]);
   const [selectedDocId, setSelectedDocId] = useState("");
 
@@ -142,4 +142,4 @@ const claimOfficerDashboard = () => {
   )
 };
 
-export default claimOfficerDashboard;
+export default ClaimOfficerDashboard;

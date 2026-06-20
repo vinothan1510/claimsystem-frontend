@@ -15,7 +15,7 @@ interface RegisterErrors {
   confirmPassword?: string;
 }
 
-const register = () => {
+const Register = () => {
   const [form, setForm] = useState<RegisterForm>({
     fullName: "",
     email: "",
@@ -140,4 +140,4 @@ const register = () => {
   );
 };
 
-export default register;
+export default Register;
